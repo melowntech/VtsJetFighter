@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 56853446}
   - component: {fileID: 56853447}
   - component: {fileID: 56853436}
+  - component: {fileID: 56853448}
   m_Layer: 8
   m_Name: AircraftJet
   m_TagString: Player
@@ -353,6 +354,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a51e0133135f6124bb54fa0bbef6d2b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &56853448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 56853435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50b61785e56a23e4fbf4b1d0a16092b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &152472826
@@ -26642,7 +26654,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1856682058}
   - component: {fileID: 1856682057}
-  - component: {fileID: 1856682059}
   - component: {fileID: 1856682060}
   m_Layer: 0
   m_Name: Planet
@@ -26680,21 +26691,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1856682059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1856682056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a3aa6ece2ffcce4a9b1d78425a5dce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 14.412332
-  y: 50.04945
-  z: 1000
-  singleUse: 1
 --- !u!114 &1856682060
 MonoBehaviour:
   m_ObjectHideFlags: 0
