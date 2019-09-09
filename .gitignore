@@ -1,9 +1,9 @@
 /[Ll]ibrary
+/[Ll]ogs
 /[Tt]emp
 /[Oo]bj
 /[Bb]uild*
 /Assets/AssetStoreTools*
-/Assets/Standard Assets*
 /Assets/Vts*
 /.vs
 /ExportedObj
