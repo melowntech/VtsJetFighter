@@ -29,7 +29,7 @@ public class Reset : MonoBehaviour
         m.x = initVtsX;
         m.y = initVtsY;
         m.z = initVtsZ;
-        map.AddComponent<VtsRigidBodyActivate>().map = map;
+        gameObject.AddComponent<VtsRigidBodyActivate>().map = map;
     }
 
     void FixedUpdate()

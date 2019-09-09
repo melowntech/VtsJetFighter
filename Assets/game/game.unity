@@ -125,9 +125,9 @@ GameObject:
   - component: {fileID: 400951298}
   - component: {fileID: 400951296}
   - component: {fileID: 400951295}
-  - component: {fileID: 400951301}
   - component: {fileID: 400951299}
   - component: {fileID: 400951300}
+  - component: {fileID: 400951301}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -724,7 +724,7 @@ MonoBehaviour:
   ConfigUrl: https://cdn.melown.com/mario/store/melown2015/map-config/melown/Melown-Earth-Intergeo-2017/mapConfig.json
   AuthUrl: 
   CreateConfig: 
-  RunConfig: '{ "targetResourcesMemoryKB":2000000 }'
+  RunConfig: '{ "targetResourcesMemoryKB":500000 }'
   Statistics: This will show statistics at play
 --- !u!4 &1856682058
 Transform:
